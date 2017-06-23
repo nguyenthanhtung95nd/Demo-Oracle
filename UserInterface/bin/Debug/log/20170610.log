@@ -1,0 +1,9 @@
+Function: TestConnection
+Datetime: 06/10/2017 11:12:28 AM
+Error message: ORA-12514: TNS:listener does not currently know of service requested in connect descriptor
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at DataAccess.DBConnection.GetConnection() in d:\Example\Oracle\OracleDemo\DataAccess\DBConnection.cs:line 65
+   at DataAccess.DBConnection.TestConnection() in d:\Example\Oracle\OracleDemo\DataAccess\DBConnection.cs:line 40
+

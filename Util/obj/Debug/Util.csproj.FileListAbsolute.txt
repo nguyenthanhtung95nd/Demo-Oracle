@@ -1,0 +1,8 @@
+D:\Tool\Adroid\Json\AppService\OracleDemo\Util\bin\Debug\Util.dll
+D:\Tool\Adroid\Json\AppService\OracleDemo\Util\bin\Debug\Util.pdb
+D:\Tool\Adroid\Json\AppService\OracleDemo\Util\obj\Debug\Util.dll
+D:\Tool\Adroid\Json\AppService\OracleDemo\Util\obj\Debug\Util.pdb
+D:\Example\Oracle\OracleDemo\Util\bin\Debug\Util.dll
+D:\Example\Oracle\OracleDemo\Util\bin\Debug\Util.pdb
+D:\Example\Oracle\OracleDemo\Util\obj\Debug\Util.dll
+D:\Example\Oracle\OracleDemo\Util\obj\Debug\Util.pdb

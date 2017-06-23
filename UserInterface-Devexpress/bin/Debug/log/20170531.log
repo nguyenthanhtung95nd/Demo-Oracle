@@ -1,0 +1,13 @@
+Function: ExcuteSelectMultiObject
+Datetime: 05/31/2017 5:20:26 PM
+Error message: ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'GET_EMPLOYEE_BY_ID'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.DalUtility.LoadObjectListFromDatabase[T](OracleCommand command) in d:\Example\Oracle\OracleDemo\DataAccess\DalUtility.cs:line 144
+   at DataAccess.OracleHelper.ExcuteSelectMultiObject[T](String packname, String procname, Object parameter) in d:\Example\Oracle\OracleDemo\DataAccess\OracleHelper.cs:line 33
+

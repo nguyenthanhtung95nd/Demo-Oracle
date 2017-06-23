@@ -1,0 +1,9 @@
+D:\Tool\Adroid\Json\AppService\OracleDemo\Domain\bin\Debug\Domain.dll
+D:\Tool\Adroid\Json\AppService\OracleDemo\Domain\bin\Debug\Domain.pdb
+D:\Tool\Adroid\Json\AppService\OracleDemo\Domain\obj\Debug\Domain.dll
+D:\Tool\Adroid\Json\AppService\OracleDemo\Domain\obj\Debug\Domain.pdb
+D:\Tool\Adroid\Json\AppService\OracleDemo\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+D:\Example\Oracle\OracleDemo\Domain\bin\Debug\Domain.dll
+D:\Example\Oracle\OracleDemo\Domain\bin\Debug\Domain.pdb
+D:\Example\Oracle\OracleDemo\Domain\obj\Debug\Domain.dll
+D:\Example\Oracle\OracleDemo\Domain\obj\Debug\Domain.pdb

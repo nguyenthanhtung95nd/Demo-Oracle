@@ -1,0 +1,71 @@
+Function: ExcuteSelectMultiObject
+Datetime: 06/07/2017 5:12:45 AM
+Error message: ORA-12514: TNS:listener does not currently know of service requested in connect descriptor
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at DataAccess.DBConnection.GetConnection() in d:\Example\Oracle\OracleDemo\DataAccess\DBConnection.cs:line 65
+   at DataAccess.DalUtility.SelectUserArgs(String packname, String procname) in d:\Example\Oracle\OracleDemo\DataAccess\DalUtility.cs:line 156
+   at DataAccess.OracleHelper.ExcuteSelectMultiObject[T](String packname, String procname, Object parameter) in d:\Example\Oracle\OracleDemo\DataAccess\OracleHelper.cs:line 19
+
+Function: ExcuteSelectMultiObject
+Datetime: 06/07/2017 5:13:10 AM
+Error message: ORA-12514: TNS:listener does not currently know of service requested in connect descriptor
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at DataAccess.DBConnection.GetConnection() in d:\Example\Oracle\OracleDemo\DataAccess\DBConnection.cs:line 65
+   at DataAccess.DalUtility.SelectUserArgs(String packname, String procname) in d:\Example\Oracle\OracleDemo\DataAccess\DalUtility.cs:line 156
+   at DataAccess.OracleHelper.ExcuteSelectMultiObject[T](String packname, String procname, Object parameter) in d:\Example\Oracle\OracleDemo\DataAccess\OracleHelper.cs:line 19
+
+Function: ExcuteSelectMultiObject
+Datetime: 06/07/2017 5:44:09 AM
+Error message: 
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleDataReader..ctor(OracleConnection connection, IntPtr[] opsSqlCtx, IntPtr opsDacCtx, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, OpoDacValCtx* pOpoDacValCtx, MetaData metaData, Int32 resultCount, CommandBehavior commandBehavior, Hashtable safeMapping, String commandText, Int32 freeOpsSqlCtx, Boolean bFetchSizePropertySet)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.DalUtility.LoadObjectListFromDatabase[T](OracleCommand command) in d:\Example\Oracle\OracleDemo\DataAccess\DalUtility.cs:line 144
+   at DataAccess.DalUtility.SelectUserArgs(String packname, String procname) in d:\Example\Oracle\OracleDemo\DataAccess\DalUtility.cs:line 183
+   at DataAccess.OracleHelper.ExcuteSelectMultiObject[T](String packname, String procname, Object parameter) in d:\Example\Oracle\OracleDemo\DataAccess\OracleHelper.cs:line 19
+
+Function: ExcuteSelectMultiObject
+Datetime: 06/07/2017 5:45:55 AM
+Error message: 
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleDataReader.Read()
+   at DataAccess.DalUtility.LoadObjectListFromDatabase[T](OracleCommand command) in d:\Example\Oracle\OracleDemo\DataAccess\DalUtility.cs:line 145
+   at DataAccess.OracleHelper.ExcuteSelectMultiObject[T](String packname, String procname, Object parameter) in d:\Example\Oracle\OracleDemo\DataAccess\OracleHelper.cs:line 33
+
+Function: ExcuteSelectMultiObject
+Datetime: 06/07/2017 5:45:55 AM
+Error message: Operation is not valid due to the current state of the object.
+Stack trace:    at Oracle.DataAccess.Client.OracleDataReader.Read()
+   at DataAccess.DalUtility.LoadObjectListFromDatabase[T](OracleCommand command) in d:\Example\Oracle\OracleDemo\DataAccess\DalUtility.cs:line 145
+   at DataAccess.OracleHelper.ExcuteSelectMultiObject[T](String packname, String procname, Object parameter) in d:\Example\Oracle\OracleDemo\DataAccess\OracleHelper.cs:line 33
+
+Function: ExcuteSelectMultiObject
+Datetime: 06/07/2017 5:48:38 AM
+Error message: ORA-24309: already connected to a server
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at DataAccess.DBConnection.GetConnection() in d:\Example\Oracle\OracleDemo\DataAccess\DBConnection.cs:line 65
+   at DataAccess.DalUtility.SelectUserArgs(String packname, String procname) in d:\Example\Oracle\OracleDemo\DataAccess\DalUtility.cs:line 156
+   at DataAccess.OracleHelper.ExcuteSelectMultiObject[T](String packname, String procname, Object parameter) in d:\Example\Oracle\OracleDemo\DataAccess\OracleHelper.cs:line 19
+
+Function: ExcuteSelectMultiObject
+Datetime: 06/07/2017 5:55:10 AM
+Error message: ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'GET_EMPLOYEE_BY_ORG'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.DalUtility.LoadObjectListFromDatabase[T](OracleCommand command) in d:\Example\Oracle\OracleDemo\DataAccess\DalUtility.cs:line 144
+   at DataAccess.OracleHelper.ExcuteSelectMultiObject[T](String packname, String procname, Object parameter) in d:\Example\Oracle\OracleDemo\DataAccess\OracleHelper.cs:line 33
+

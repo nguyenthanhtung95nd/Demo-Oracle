@@ -1,0 +1,103 @@
+Function: TestConnection
+Datetime: 05/16/2017 3:28:26 PM
+Error message: ORA-12545: Connect failed because target host or object does not exist
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at DataAccess.DBConnection.GetConnection() in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\DBConnection.cs:line 58
+   at DataAccess.DBConnection.TestConnection() in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\DBConnection.cs:line 40
+
+Function: TestConnection
+Datetime: 05/16/2017 3:32:31 PM
+Error message: 'Unicode' is an invalid connection string attribute
+Stack trace:    at Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   at Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   at DataAccess.DBConnection.GetConnection() in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\DBConnection.cs:line 59
+   at DataAccess.DBConnection.TestConnection() in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\DBConnection.cs:line 40
+
+Function: TestConnection
+Datetime: 05/16/2017 3:33:03 PM
+Error message: 'Unicode' is an invalid connection string attribute
+Stack trace:    at Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   at Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   at DataAccess.DBConnection.GetConnection() in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\DBConnection.cs:line 59
+   at DataAccess.DBConnection.TestConnection() in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\DBConnection.cs:line 40
+
+Function: TestConnection
+Datetime: 05/16/2017 3:34:43 PM
+Error message: 'Unicode' is an invalid connection string attribute
+Stack trace:    at Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   at Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   at DataAccess.DBConnection.GetConnection() in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\DBConnection.cs:line 59
+   at DataAccess.DBConnection.TestConnection() in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\DBConnection.cs:line 40
+
+Function: ExcuteNonQuery
+Datetime: 05/16/2017 4:04:40 PM
+Error message: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'PKG_SYSTEM.PRS_SY_USERARGS' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.DalUtility.LoadObjectListFromDatabase[T](OracleCommand command) in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\DalUtility.cs:line 143
+   at DataAccess.DalUtility.SelectUserArgs(String packname, String procname) in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\DalUtility.cs:line 182
+   at DataAccess.OracleHelper.ExcuteNonQuery(String packname, String procname, Object parameter) in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\OracleHelper.cs:line 85
+
+Function: ExcuteNonQuery
+Datetime: 05/16/2017 4:05:14 PM
+Error message: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'PKG_SYSTEM.PRS_SY_USERARGS' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.DalUtility.LoadObjectListFromDatabase[T](OracleCommand command) in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\DalUtility.cs:line 143
+   at DataAccess.DalUtility.SelectUserArgs(String packname, String procname) in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\DalUtility.cs:line 182
+   at DataAccess.OracleHelper.ExcuteNonQuery(String packname, String procname, Object parameter) in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\OracleHelper.cs:line 85
+
+Function: ExcuteNonQuery
+Datetime: 05/16/2017 4:05:53 PM
+Error message: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'PKG_SYSTEM.PRS_SY_USERARGS' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.DalUtility.LoadObjectListFromDatabase[T](OracleCommand command) in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\DalUtility.cs:line 143
+   at DataAccess.DalUtility.SelectUserArgs(String packname, String procname) in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\DalUtility.cs:line 182
+   at DataAccess.OracleHelper.ExcuteNonQuery(String packname, String procname, Object parameter) in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\OracleHelper.cs:line 85
+
+Function: ExcuteNonQuery
+Datetime: 05/16/2017 4:07:02 PM
+Error message: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'PKG_SYSTEM.PRS_SY_USERARGS' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.DalUtility.LoadObjectListFromDatabase[T](OracleCommand command) in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\DalUtility.cs:line 143
+   at DataAccess.DalUtility.SelectUserArgs(String packname, String procname) in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\DalUtility.cs:line 182
+   at DataAccess.OracleHelper.ExcuteNonQuery(String packname, String procname, Object parameter) in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\OracleHelper.cs:line 85
+
+Function: ExcuteSelectObject
+Datetime: 05/16/2017 4:12:30 PM
+Error message: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'PKG_SYSTEM.PRS_SY_USERARGS' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at DataAccess.DalUtility.LoadObjectListFromDatabase[T](OracleCommand command) in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\DalUtility.cs:line 143
+   at DataAccess.DalUtility.SelectUserArgs(String packname, String procname) in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\DalUtility.cs:line 182
+   at DataAccess.OracleHelper.ExcuteSelectObject[T](String packname, String procname, Object parameter) in d:\Tool\Adroid\Json\AppService\OracleDemo\DataAccess\OracleHelper.cs:line 50
+

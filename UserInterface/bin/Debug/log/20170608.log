@@ -1,0 +1,66 @@
+Function: ExcuteNonQuery
+Datetime: 06/08/2017 1:14:42 PM
+Error message: ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'INSERT_EMPLOYEE'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleHelper.ExcuteNonQuery(String packname, String procname, Object parameter) in d:\Example\Oracle\OracleDemo\DataAccess\OracleHelper.cs:line 101
+
+Function: ExcuteNonQuery
+Datetime: 06/08/2017 1:14:58 PM
+Error message: ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'INSERT_EMPLOYEE'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleHelper.ExcuteNonQuery(String packname, String procname, Object parameter) in d:\Example\Oracle\OracleDemo\DataAccess\OracleHelper.cs:line 101
+
+Function: ExcuteNonQuery
+Datetime: 06/08/2017 1:18:20 PM
+Error message: ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'INSERT_EMPLOYEE'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleHelper.ExcuteNonQuery(String packname, String procname, Object parameter) in d:\Example\Oracle\OracleDemo\DataAccess\OracleHelper.cs:line 101
+
+Function: ExcuteNonQuery
+Datetime: 06/08/2017 1:19:50 PM
+Error message: ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'INSERT_EMPLOYEE'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleHelper.ExcuteNonQuery(String packname, String procname, Object parameter) in d:\Example\Oracle\OracleDemo\DataAccess\OracleHelper.cs:line 101
+
+Function: ExcuteNonQuery
+Datetime: 06/08/2017 1:22:46 PM
+Error message: ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'INSERT_EMPLOYEE'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleHelper.ExcuteNonQuery(String packname, String procname, Object parameter) in d:\Example\Oracle\OracleDemo\DataAccess\OracleHelper.cs:line 101
+
+Function: ExcuteNonQuery
+Datetime: 06/08/2017 1:26:22 PM
+Error message: ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'INSERT_EMPLOYEE'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DataAccess.OracleHelper.ExcuteNonQuery(String packname, String procname, Object parameter) in d:\Example\Oracle\OracleDemo\DataAccess\OracleHelper.cs:line 101
+
