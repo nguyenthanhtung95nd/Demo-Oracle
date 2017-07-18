@@ -1,0 +1,4 @@
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Domain\bin\Debug\HiStaff.Domain.dll
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Domain\bin\Debug\HiStaff.Domain.pdb
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Domain\obj\Debug\HiStaff.Domain.dll
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Domain\obj\Debug\HiStaff.Domain.pdb

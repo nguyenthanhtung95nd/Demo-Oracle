@@ -1,0 +1,309 @@
+Function: TestConnection
+Datetime: 30/11/2015 10:40:52 AM
+Error message: ORA-12170: TNS:Connect timeout occurred
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at HiStaff.Dal.DBConnection.TestConnection(String user, String pass, String server, String port, String service) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DBConnection.cs:line 64
+
+Function: TestConnection
+Datetime: 30/11/2015 10:41:41 AM
+Error message: ORA-12170: TNS:Connect timeout occurred
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at HiStaff.Dal.DBConnection.TestConnection(String user, String pass, String server, String port, String service) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DBConnection.cs:line 64
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:51:18 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:51:18 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:51:18 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:51:18 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:51:19 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:51:19 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:51:19 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:51:19 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:51:19 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:51:19 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:51:19 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:51:19 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:51:19 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:59:30 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:59:51 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:59:52 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:59:52 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:59:52 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:59:52 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:59:52 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:59:52 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:59:52 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:59:52 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:59:52 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:59:52 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+
+Function: ExcuteCommandText
+Datetime: 30/11/2015 10:59:52 AM
+Error message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Stack trace:    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at HiStaff.Dal.DbSqlConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DbSqlConnection.cs:line 63
+   at HiStaff.Dal.SqlHelper.ExcuteCommandText(String commandText, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\SqlHelper.cs:line 104
+

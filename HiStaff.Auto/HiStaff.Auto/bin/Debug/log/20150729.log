@@ -1,0 +1,26 @@
+Function: ExcuteNonQuery
+Datetime: 29/07/2015 2:12:07 PM
+Error message: ORA-12170: TNS:Connect timeout occurred
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at HiStaff.Dal.DBConnection.GetConnection() in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DBConnection.cs:line 106
+   at HiStaff.Dal.DalUtility.SelectUserArgs(String packname, String procname) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DalUtility.cs:line 202
+   at HiStaff.Dal.OracleHelper.ExcuteNonQuery(String packname, String procname, Object parameter) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\OracleHelper.cs:line 93
+
+Function: Auto trans data
+Datetime: 29/07/2015 2:15:46 PM
+Error message: Could not find a part of the path 'D:\TinhVan\AttendanceBackup\20150722.xml'.
+Stack trace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   at System.IO.File.Copy(String sourceFileName, String destFileName)
+   at HiStaff.Auto.frmMain.AsynchronousFunctionWithBGW(BackgroundWorker bgWorker) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Auto\frmMain.cs:line 381
+
+Function: Auto trans data
+Datetime: 29-Jul-2015 2:23:38 PM
+Error message: Could not find a part of the path 'D:\TinhVan\AttendanceBackup\20150728.xml'.
+Stack trace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   at System.IO.File.Copy(String sourceFileName, String destFileName)
+   at HiStaff.Auto.frmMain.AsynchronousFunctionWithBGW(BackgroundWorker bgWorker) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Auto\frmMain.cs:line 381
+

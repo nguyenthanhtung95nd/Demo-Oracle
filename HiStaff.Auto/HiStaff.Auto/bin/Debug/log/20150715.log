@@ -1,0 +1,32 @@
+Function: TestConnection
+Datetime: 15/07/2015 2:00:40 PM
+Error message: ORA-12170: TNS:Connect timeout occurred
+Stack trace:    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at HiStaff.Dal.DBConnection.TestConnection(String user, String pass, String server, String port, String service) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\DBConnection.cs:line 64
+
+Function: Auto trans data
+Datetime: 15/07/2015 2:05:19 PM
+Error message: Could not find a part of the path 'D:\TinhVan\AttendanceBackup\20150621.xml'.
+Stack trace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   at System.IO.File.Copy(String sourceFileName, String destFileName)
+   at HiStaff.Auto.frmMain.AsynchronousFunctionWithBGW(BackgroundWorker bgWorker) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Auto\frmMain.cs:line 381
+
+Function: Auto trans data
+Datetime: 15/07/2015 4:19:01 PM
+Error message: Could not find a part of the path 'D:\TinhVan\AttendanceBackup\20150621.xml'.
+Stack trace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   at System.IO.File.Copy(String sourceFileName, String destFileName)
+   at HiStaff.Auto.frmMain.AsynchronousFunctionWithBGW(BackgroundWorker bgWorker) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Auto\frmMain.cs:line 381
+
+Function: Auto trans data
+Datetime: 15/07/2015 4:22:57 PM
+Error message: Could not find a part of the path 'D:\TinhVan\AttendanceBackup\20150621.xml'.
+Stack trace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   at System.IO.File.Copy(String sourceFileName, String destFileName)
+   at HiStaff.Auto.frmMain.AsynchronousFunctionWithBGW(BackgroundWorker bgWorker) in D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Auto\frmMain.cs:line 381
+

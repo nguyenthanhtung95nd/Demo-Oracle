@@ -1,0 +1,7 @@
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Util\bin\Debug\HiStaff.Util.dll
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Util\bin\Debug\HiStaff.Util.pdb
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Util\bin\Debug\HiStaff.Domain.dll
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Util\bin\Debug\HiStaff.Domain.pdb
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Util\obj\Debug\HiStaff.Util.csprojResolveAssemblyReference.cache
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Util\obj\Debug\HiStaff.Util.dll
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Util\obj\Debug\HiStaff.Util.pdb

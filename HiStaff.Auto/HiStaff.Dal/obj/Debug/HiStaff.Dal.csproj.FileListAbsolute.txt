@@ -1,0 +1,10 @@
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\bin\Debug\HiStaff.Dal.dll
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\bin\Debug\HiStaff.Dal.pdb
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\bin\Debug\HiStaff.Domain.dll
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\bin\Debug\HiStaff.Util.dll
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\bin\Debug\Oracle.DataAccess.dll
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\bin\Debug\HiStaff.Domain.pdb
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\bin\Debug\HiStaff.Util.pdb
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\obj\Debug\HiStaff.Dal.csprojResolveAssemblyReference.cache
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\obj\Debug\HiStaff.Dal.dll
+D:\TVC\MSM\321.Interface\HiStaff.Auto\HiStaff.Dal\obj\Debug\HiStaff.Dal.pdb
